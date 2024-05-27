@@ -1,19 +1,3 @@
-////////////////////////////////////////
-
-//////////////////////////////
-const axisoData = async (url) => {
-try {
-const {
-data: { name, address, image, number, age },
-} = await axios.get(url);
-
-      console.log(url);
-    } catch (error) {
-      console.log("Someting wrong", error);
-    }
-
-};
-
 Contract owner(Account 7)
 Account #0: 0xf39Fd6e51aad88F6F4ce6aB8827279cffFb92266 (10000 ETH)
 Private Key: 0xac0974bec39a17e36ba4a6b4d238ff944bacb478cbed5efca
